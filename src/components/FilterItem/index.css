@@ -1,0 +1,18 @@
+.checkbox-field-container,
+.salary-range-field-container {
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+
+.label-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #f8fafc;
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.filter-input {
+  font-size: 16px;
+}

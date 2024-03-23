@@ -1,0 +1,97 @@
+.job-list-item {
+  width: 100%;
+  border: 1px solid rebeccapurple;
+  list-style: none;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.company-profile-container {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.job-name-and-rating-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-name {
+  font-size: 18px;
+  color: aliceblue;
+  margin-left: 8px;
+  margin-bottom: 0;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.rating-icon-color {
+  color: #fbbf24;
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.rating {
+  color: aliceblue;
+  font-size: 14px;
+}
+
+.job-location-salary-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.job-location-and-typ-container {
+  display: flex;
+  align-items: center;
+}
+
+.locaton {
+  color: aliceblue;
+  margin-right: 8px;
+}
+
+.job-type {
+  color: aliceblue;
+}
+
+.salary {
+  color: aliceblue;
+}
+
+.hr-line {
+  width: 100%;
+}
+
+.job-description-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.job-description-heading {
+  color: aliceblue;
+  margin-bottom: 0;
+}
+
+.job-description {
+  color: red;
+  font-size: 16px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: aliceblue;
+}

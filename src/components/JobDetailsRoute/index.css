@@ -1,0 +1,279 @@
+.job-details-route {
+  min-height: 100vh;
+  background-color: #121212;
+}
+
+.job-item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 36px;
+  padding-bottom: 46px;
+}
+
+.job-item {
+  width: 90%;
+  border: 1px solid rebeccapurple;
+  padding: 24px;
+  margin-bottom: 10px;
+}
+
+.company-profile-container {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  width: 40px;
+  height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .company-logo {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.job-name-and-rating-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-name {
+  font-size: 18px;
+  color: aliceblue;
+  margin-left: 8px;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .job-name {
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 12px;
+  }
+}
+
+.rating-container {
+  display: flex;
+  margin-left: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .rating-container {
+    margin-left: 12px;
+  }
+}
+
+.rating-icon {
+  color: rgb(255, 255, 0);
+  margin-right: 12px;
+  font-size: 14px;
+}
+
+.rating {
+  color: aliceblue;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .rating-icon {
+    font-size: 18px;
+  }
+
+  .rating {
+    font-size: 18px;
+  }
+}
+
+.job-location-salary-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.job-location-and-type-container {
+  display: flex;
+  align-items: center;
+}
+
+.locaton,
+.salary,
+.job-type {
+  color: aliceblue;
+  margin-right: 8px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .locaton,
+  .salary,
+  .job-type {
+    font-size: 18px;
+  }
+}
+
+.hr-line {
+  width: 100%;
+}
+
+.job-description-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.job-description-heading-and-link-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.job-description-heading {
+  color: aliceblue;
+  margin-bottom: 0;
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-description-heading {
+    font-size: 34px;
+  }
+}
+
+.visit-button {
+  font-size: 16px;
+  color: #4f46e5;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.nav-link {
+  text-decoration: none;
+  align-items: #4f46e5;
+}
+
+.job-description {
+  color: aliceblue;
+  font-size: 18px;
+}
+
+.skills-container {
+  width: 100%;
+}
+
+.skills-heading {
+  color: aliceblue;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  list-style: none;
+}
+
+.skill-item {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.skill-image {
+  width: 60px;
+  height: 60px;
+}
+
+.life-at-company-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .life-at-company-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.life-at-company-content-container {
+  flex-grow: 1;
+  margin-right: 16px;
+  color: aliceblue;
+}
+
+.similar-jobs-container {
+  width: 90%;
+  border: 2px solid rebeccapurple;
+  padding: 24px;
+}
+
+.similar-jobs-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0;
+  list-style: none;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-jobs-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.similar-job-item {
+  width: 100%;
+  max-width: 550px;
+  border: 2px solid rgb(211, 11, 115);
+  margin: 12px;
+  color: aliceblue;
+  padding: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-job-item {
+    max-width: 400px;
+  }
+}
+
+.similar-job-heading {
+  color: #ffffff;
+}
+
+.location-icon,
+.employment-type-icon {
+  color: #ffffff;
+  margin: 8px;
+}
+
+.failure-view-container,
+.no-jobs-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f8fafc;
+  /* border: 2px solid rgb(238, 14, 159); */
+  width: 100%;
+  text-align: center;
+}
+
+.retry-button {
+  padding: 10px 20px 10px 20px;
+  background-color: #4f46e5;
+  color: #f1f5f9;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 8px;
+}

@@ -1,0 +1,22 @@
+.filters-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.employment-filter-container,
+.salary-filter-container {
+  width: 100%;
+  margin-bottom: 16px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.filter-heading {
+  font-size: 18px;
+  color: #f8fafc;
+  align-self: flex-start;
+  margin-bottom: 0;
+}
